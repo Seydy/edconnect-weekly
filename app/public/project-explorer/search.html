@@ -19,30 +19,34 @@
 
 <main>
     <section>
+
     <h3> Search Project By </h3>
 
-    <form> searchForm 
+    <form>
         
       <input type="text" name="searchTerm" Placeholder="Project Name, Authors, Abstract, Tags"> <br><br>
  
-    
+      <select name="searchType" label="Search By">
 
-       <label for="ptitle">Project Title:</label><br>
-       <input type="text" name="ptitle"><br><br>
 
-       <label for="pabstract">Project Abstract:</label><br>
-       <input type="text" name="pabstract"><br><br>
+       <option value="Project Name">Project Name </option> </option>
 
-       <label for="author">Authors:</label><br>
-       <input type="text" name="author"><br><br>
+      
+       <option value="Authors">Authors </option> </option>
 
-       <label for="tag">Tag(s):</label><br>
-       <input type="text" name="tag"><br><br>
+       <option value="Abstract">Abstract </option> </option>
 
-       <select name="searchType">Search By</select>
-       
+
+       <option value="Tags">Tags </option> </option>
+
        <input type="submit" value="Search"/>
+
+
+    </select>
+       
+       
     </form>
+    
 </section>
 
     <h2>Search Result</h2>
